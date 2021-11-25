@@ -138,6 +138,7 @@ color: #686868;
     }
     .main-midd{
     display:block;
+    padding-left: 0px;
     }
     .header-img{
         width:100%;
@@ -154,13 +155,15 @@ color: #686868;
         width:100%;
     }
     .nav{
-        display: block;
+      flex-wrap: wrap;
+      justify-content: center   ;
     }
     .img{
         width:auto;
     }
     .footer-box{
-        display: block;
+        flex-wrap: wrap;
+        padding-top: 30px;
     }
     .midd-img{
     height: 357px;
@@ -171,7 +174,8 @@ color: #686868;
     width: 100%;
     }
     .list{
-        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .link{
         margin:0 ;
